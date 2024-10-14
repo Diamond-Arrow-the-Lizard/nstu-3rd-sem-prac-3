@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections;
 using System.Collections.Generic;
+using System.Collections.ObjectModel;
 
 namespace Prac_3 {
 
@@ -23,6 +24,7 @@ namespace Prac_3 {
             {
                 Console.Write(i + " ") ;
             }
+
             Console.WriteLine("\n ArrayList has " + Heap.Count + " elements");
 
             Heap.Remove(deleteIndex);
@@ -107,8 +109,8 @@ namespace Prac_3 {
 
             if(found == false)
                 Console.WriteLine("Searched variable is absent");
+            Console.WriteLine("\n");
         }
-
 
     }
 
@@ -121,6 +123,7 @@ namespace Prac_3 {
 
             Task.TaskCreateUnsortedCollection(2, 5);
             Task.TaskCreateSortedCollection(3, 'g');
+
 
         }
 
