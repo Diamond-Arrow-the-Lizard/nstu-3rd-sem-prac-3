@@ -1,0 +1,15 @@
+/home/d-arrow/programming/Csh_3rd_Sem/nstu-3rd-sem-prac-3/obj/Debug/net8.0/nstu-3rd-sem-prac-3.GeneratedMSBuildEditorConfig.editorconfig
+/home/d-arrow/programming/Csh_3rd_Sem/nstu-3rd-sem-prac-3/obj/Debug/net8.0/nstu-3rd-sem-prac-3.AssemblyInfoInputs.cache
+/home/d-arrow/programming/Csh_3rd_Sem/nstu-3rd-sem-prac-3/obj/Debug/net8.0/nstu-3rd-sem-prac-3.AssemblyInfo.cs
+/home/d-arrow/programming/Csh_3rd_Sem/nstu-3rd-sem-prac-3/obj/Debug/net8.0/nstu-3rd-sem-prac-3.csproj.CoreCompileInputs.cache
+/home/d-arrow/programming/Csh_3rd_Sem/nstu-3rd-sem-prac-3/obj/Debug/net8.0/nstu-3rd-sem-prac-3.sourcelink.json
+/home/d-arrow/programming/Csh_3rd_Sem/nstu-3rd-sem-prac-3/bin/Debug/net8.0/nstu-3rd-sem-prac-3
+/home/d-arrow/programming/Csh_3rd_Sem/nstu-3rd-sem-prac-3/bin/Debug/net8.0/nstu-3rd-sem-prac-3.deps.json
+/home/d-arrow/programming/Csh_3rd_Sem/nstu-3rd-sem-prac-3/bin/Debug/net8.0/nstu-3rd-sem-prac-3.runtimeconfig.json
+/home/d-arrow/programming/Csh_3rd_Sem/nstu-3rd-sem-prac-3/bin/Debug/net8.0/nstu-3rd-sem-prac-3.dll
+/home/d-arrow/programming/Csh_3rd_Sem/nstu-3rd-sem-prac-3/bin/Debug/net8.0/nstu-3rd-sem-prac-3.pdb
+/home/d-arrow/programming/Csh_3rd_Sem/nstu-3rd-sem-prac-3/obj/Debug/net8.0/nstu-3rd-sem-prac-3.dll
+/home/d-arrow/programming/Csh_3rd_Sem/nstu-3rd-sem-prac-3/obj/Debug/net8.0/refint/nstu-3rd-sem-prac-3.dll
+/home/d-arrow/programming/Csh_3rd_Sem/nstu-3rd-sem-prac-3/obj/Debug/net8.0/nstu-3rd-sem-prac-3.pdb
+/home/d-arrow/programming/Csh_3rd_Sem/nstu-3rd-sem-prac-3/obj/Debug/net8.0/nstu-3rd-sem-prac-3.genruntimeconfig.cache
+/home/d-arrow/programming/Csh_3rd_Sem/nstu-3rd-sem-prac-3/obj/Debug/net8.0/ref/nstu-3rd-sem-prac-3.dll
