@@ -1,11 +1,12 @@
 ﻿using System;
 using System.Collections;
+using System.Collections.Generic;
 
 namespace Prac_3 {
 
     public class Tasks {
 
-        public void TaskCreateCollection(int deleteIndex, int searchVar) {
+        public void TaskCreateUnsortedCollection(int deleteIndex, int searchVar) {
 
             Random rnd = new Random();
             ArrayList Heap = new ArrayList();
@@ -41,8 +42,36 @@ namespace Prac_3 {
             if(found == false)
                 Console.WriteLine("Searched variable is absent");
 
+            Console.WriteLine("\n");
         }
 
+        public void TaskCreateSortedCollection(int deleteAmount) {
+            
+            Stack<char> Letters = new Stack<char>();
+
+            char x = 'a';
+            for(int i = 0; i < 10; i++) {
+                x = (char)(Convert.ToUInt16(x) + 1);
+                Letters.Push(x);
+
+            }
+
+            foreach(var i in Letters)
+                Console.Write(i + " ");
+            Console.WriteLine("\n");
+
+            while(deleteAmount != 0) {
+                Letters.Pop();
+                --deleteAmount;
+            }
+
+            foreach(var i in Letters)
+                Console.Write(i + " ");
+            Console.WriteLine("\n");
+
+            // TODO rest of the Task 2, and the other stuff
+
+        }
 
 
     }
@@ -54,7 +83,8 @@ namespace Prac_3 {
 
             Tasks Task = new Tasks();
 
-            Task.TaskCreateCollection(2, 5);
+            Task.TaskCreateUnsortedCollection(2, 5);
+            Task.TaskCreateSortedCollection(3);
 
         }
 
