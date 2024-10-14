@@ -36,7 +36,7 @@ namespace Prac_3 {
                     Console.WriteLine("Found at index " + Heap.IndexOf(item));
                     break;
                 }
-                
+
             }
 
             if(found == false)
@@ -45,8 +45,8 @@ namespace Prac_3 {
             Console.WriteLine("\n");
         }
 
-        public void TaskCreateSortedCollection(int deleteAmount) {
-            
+        public void TaskCreateSortedCollection(int deleteAmount, char searchedElement) {
+
             Stack<char> Letters = new Stack<char>();
 
             char x = 'a';
@@ -69,8 +69,44 @@ namespace Prac_3 {
                 Console.Write(i + " ");
             Console.WriteLine("\n");
 
-            // TODO rest of the Task 2, and the other stuff
 
+            for(int i = 0; i < 10; i++) {
+                x = (char)(Convert.ToUInt16(x) + 1);
+                Letters.Push(x);
+
+            }
+
+            foreach(var i in Letters)
+                Console.Write(i + " ");
+            Console.WriteLine("\n");
+
+
+            List<char> LetterList = new List<char>();
+
+            foreach(var i in Letters) 
+                LetterList.Add(i);
+
+
+            Console.WriteLine("Stack copied to list:");
+            foreach(var i in LetterList)
+                Console.Write(i + " ");
+            Console.WriteLine("\n");
+
+            bool found = false;
+            foreach(var item in LetterList) {
+
+                if (searchedElement.Equals(item))
+                {
+                    found = true;
+                    Console.WriteLine("Found at index " + LetterList.IndexOf(item));
+                    break;
+                }
+
+
+            }
+
+            if(found == false)
+                Console.WriteLine("Searched variable is absent");
         }
 
 
@@ -84,7 +120,7 @@ namespace Prac_3 {
             Tasks Task = new Tasks();
 
             Task.TaskCreateUnsortedCollection(2, 5);
-            Task.TaskCreateSortedCollection(3);
+            Task.TaskCreateSortedCollection(3, 'g');
 
         }
 
